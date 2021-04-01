@@ -6,6 +6,7 @@ class TestProblem01(unittest.TestCase):
         self.assertEqual(twosum([2,7,11,15], 9), [0,1], "Should be [0,1]")
         self.assertEqual(twosum([3,2,4], 6), [1,2], "Should be [1,2]")
         self.assertEqual(twosum([3,3], 6), [0,1], "Should be [0,1]")
+        self.assertEqual(twosum([3,3,8,5,7], 13), [2,3], "Should be [2,3]")
 
 if __name__ == '__main__': 
     unittest.main()
