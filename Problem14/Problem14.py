@@ -1,0 +1,2 @@
+def lcp(strs): 
+    
